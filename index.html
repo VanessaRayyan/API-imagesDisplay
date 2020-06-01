@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Random dog pictures</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Random dog pictures</h1>
+        <form>
+            <fieldset>
+                <label>How many random images of dogs would you like to see? <br>Choose a number between 1 and 50</label>
+                <input id="numberOfPics" type="number" min="1" max="50" value="3" required>
+            </fieldset>
+            <button>Show me the dogs!</button>
+        </form>
+        <section class="results hidden"></section>
+    </div>     
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>   
+</body>
+</html>
